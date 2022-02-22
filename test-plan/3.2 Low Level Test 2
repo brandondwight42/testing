@@ -1,0 +1,23 @@
+---Description Low Level Test #2 - Ensure a valid Warrant ID is entered.---
+
+Steps:
+1. Navigate to NCIC database
+    - Run all the commands in part 1 of the Testing Lab instructions found at http://127.0.0.1:5501/_build/handouts/index.html
+    - Navigate to the "Cancel Wanted" page
+
+2. Click links for:
+- Fill out required fields
+    - Warrant ID
+    - Reason for Cancellation
+    - Date of Cancellation
+
+Postconditions:
+- An error should be generated asking the user to enter a warrant id with 10 characters if the user has not entered a warrant id with 10 characters.
+
+
+Results:
+2/21/2022 Brandon H.
+Passed
+Environment:
+Browser: Edge Version 98.0.1108.56 (Official build) (64-bit)
+OS: Windows 10
